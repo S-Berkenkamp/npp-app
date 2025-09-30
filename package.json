@@ -6,8 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint" ,
-    "postbuild": "npx sentry-cli releases new $VERCEL_GIT_COMMIT_SHA || true && npx sentry-cli releases deploys $VERCEL_GIT_COMMIT_SHA new -e $VERCEL_ENV || true"
+    "lint": "eslint"
 }
   },
   "dependencies": {
